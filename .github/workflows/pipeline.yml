@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main
-
+  pull_request:
+    branches:
+      - main
 jobs:
   hello-ci:
     name: Hello CI
@@ -32,3 +34,4 @@ jobs:
 
       - name: Finalizar pipeline
         run: echo "Pipeline ejecutado correctamente."
+  
