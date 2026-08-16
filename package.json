@@ -1,0 +1,26 @@
+{
+  "name": "ci-cd-labs",
+  "version": "1.0.0",
+  "description": "Repositorio de laboratorios del módulo de CI/CD.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony007-infor/ci-cd-labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony007-infor/ci-cd-labs/issues"
+  },
+  "homepage": "https://github.com/tony007-infor/ci-cd-labs#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
