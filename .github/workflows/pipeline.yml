@@ -44,9 +44,6 @@ jobs:
       - name: Ejecutar pruebas unitarias
         run: npm test
 
-      - name: Ejecutar pruebas unitarias
-        run: npm test
-
       - name: Publicar reporte de cobertura
         if: always()
         uses: actions/upload-artifact@v4
